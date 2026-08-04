@@ -10,11 +10,27 @@ export default function Home() {
           <p>
             Professional hair, beauty, and bridal services in Nepal
           </p>
+          <section className="stats">
+  <div>
+    <h3>500+</h3>
+    <p>Happy Clients</p>
+  </div>
+
+  <div>
+    <h3>10+</h3>
+    <p>Expert Stylists</p>
+  </div>
+
+  <div>
+    <h3>5★</h3>
+    <p>Average Rating</p>
+  </div>
+</section>
 
           {/* Scroll to booking section */}
-          <a href="#booking">
-            <button>Book Appointment</button>
-          </a>
+          <a href="#booking" className="hero-btn">
+  Book Appointment
+</a>
         </div>
       </section>
 

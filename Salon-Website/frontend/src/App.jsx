@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
-import Services from './Pages/Services';
 import Booking from './Pages/Booking';
 
 function App() {
@@ -18,11 +17,9 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Services />
 
-      <div style={{ textAlign: 'center', margin: '20px' }}>
-        <h3>Backend Status:</h3>
-        <p>{message}</p>
+      <div style={{ textAlign: 'center', margin: '30px 0', color: 'green' }}>
+        <strong>Backend Status:</strong> {message}
       </div>
 
       <Booking />

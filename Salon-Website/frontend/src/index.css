@@ -4,18 +4,14 @@
   box-sizing: border-box;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 #root {
   width: 100%;
   min-height: 100%;
-}
-
-body {
   font-family: Arial, sans-serif;
-  color: #222;
   overflow-x: hidden;
-}
-html {
-  scroll-behavior: smooth;
 }
